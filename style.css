@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#containerImg {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.caixaUm {
+  width: 200px;
+  height: 200px;
+  background-image: url("img/uzumaki_naruto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.caixaDois {
+  width: 200px;
+  height: 200px;
+  background-image: url("img/uchiha_sasuke.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Flex Container */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+/* Flex Item */
+.item {
+  /* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+  flex: 1;
+  margin: 5px;
+  background: orangered;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+body {
+  font-family: Georgia, monospace;
+  color: rgb(51, 51, 51);
+}
